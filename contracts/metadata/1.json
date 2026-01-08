@@ -1,0 +1,38 @@
+{
+  "name": "ABM Diora #1 - Genesis Block",
+  "description": "The genesis block of ABM Diora blockchain, representing the birth of our next-generation Layer 1 solution. This foundational NFT symbolizes the start of institutional-grade blockchain infrastructure.",
+  "image": "https://diorafund.github.io/diora-blockchain/images/nft/1.png",
+  "external_url": "https://diorafund.github.io/diora-whitepaper/",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Genesis Block"
+    },
+    {
+      "trait_type": "Category",
+      "value": "Foundation"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Blockchain Component",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Significance",
+      "value": "Network Birth"
+    },
+    {
+      "trait_type": "Color Scheme",
+      "value": "Blue Gradient"
+    },
+    {
+      "trait_type": "Animation",
+      "value": "Pulse Effect"
+    }
+  ],
+  "background_color": "1e40af",
+  "animation_url": "https://diorafund.github.io/diora-blockchain/animations/nft/1.mp4"
+}

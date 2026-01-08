@@ -1,0 +1,32 @@
+{
+  "name": "ABM Foundation Genesis Collection",
+  "description": "Exclusive collection of 15 unique NFTs representing the ABM Diora blockchain ecosystem. Each NFT represents a core component of our next-generation Layer 1 blockchain designed for institutional adoption.",
+  "image": "https://diorafund.github.io/diora-blockchain/images/nft-collection.png",
+  "external_link": "https://diorafund.github.io/diora-whitepaper/",
+  "seller_fee_basis_points": 500,
+  "fee_recipient": "0x0000000000000000000000000000000000000000000",
+  "attributes": [
+    {
+      "trait_type": "Collection",
+      "value": "Genesis"
+    },
+    {
+      "trait_type": "Total Supply",
+      "value": "15"
+    },
+    {
+      "trait_type": "Blockchain",
+      "value": "ABM Diora"
+    },
+    {
+      "trait_type": "Year",
+      "value": "2026"
+    },
+    {
+      "trait_type": "Creator",
+      "value": "ABM Foundation"
+    }
+  ],
+  "background_color": "1e40af",
+  "animation_url": "https://diorafund.github.io/diora-blockchain/animations/nft-collection.mp4"
+}
