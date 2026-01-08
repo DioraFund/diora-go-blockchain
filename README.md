@@ -377,7 +377,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Smart Contracts](./docs/contracts.md)
 - [Network Parameters](./docs/network.md)
 - [Security Guide](./docs/security.md)
-- [📄 Whitepaper](https://whitepaper.diora.io) - Complete technical and economic documentation
+- [📄 Whitepaper](https://diorafund.github.io/diora-whitepaper) - Complete technical and economic documentation
 
 ## 🏆 Acknowledgments
 
