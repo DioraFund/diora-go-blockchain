@@ -374,7 +374,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📚 Documentation
 
 - [Getting Started](./docs/getting-started.md)
-- [API Reference](./docs/api.md)
 - [Smart Contracts](./docs/contracts.md)
 - [Network Parameters](./docs/network.md)
 - [Security Guide](./docs/security.md)
@@ -389,10 +388,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Built with ❤️ by ABM Foundation for the future of decentralized finance**
-
-## 🚀 Quick Links
-
-- [Website](https://diorafund.github.io/diora-blockchain/)
-- [Explorer](https://diorafund.github.io/diora-blockchain/explorer/)
-- [Documentation](https://docs.diora.io)
-- [Whitepaper](https://whitepaper.diora.io)
