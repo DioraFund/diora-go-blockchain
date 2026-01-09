@@ -17,6 +17,17 @@ help:
 	@echo "  make install-deps - Install dependencies"
 	@echo "  make check-status - Check service status"
 	@echo "  make stop         - Stop all services"
+	@echo ""
+	@echo "CLI Commands:"
+	@echo "  ./build/diora wallet create -n mywallet -p password"
+	@echo "  ./build/diora account list --show-balance"
+	@echo "  ./build/diora network status"
+	@echo "  ./build/diora validator list --active"
+	@echo "  ./build/diora tx send --to 0x... --amount 100 --from 0x..."
+	@echo "  ./build/diora contract deploy --file MyContract.sol --from 0x..."
+	@echo "  ./build/diora monitor blocks --follow"
+	@echo "  ./build/diora config show --section rpc"
+	@echo "  ./build/diora dev node --mine --rpc-port 8545"
 
 # Colors for output
 RED := \033[0;31m
@@ -28,8 +39,10 @@ NC := \033[0m # No Color
 # Build all components
 build:
 	@echo "$(BLUE)Building Diora Blockchain...$(NC)"
+	@echo "$(YELLOW)Building CLI tool...$(NC)"
+	go build -o build/diora ./cmd/diora
 	@echo "$(YELLOW)Building blockchain node...$(NC)"
-	cd core && go build -o ../build/diora .
+	cd core && go build -o ../build/diora-node .
 	@echo "$(YELLOW)Building API server...$(NC)"
 	cd api && go build -o ../build/api-server .
 	@echo "$(GREEN)✓ Build completed$(NC)"
